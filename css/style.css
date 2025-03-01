@@ -4,7 +4,7 @@ html {
 :root {
   --base-color: #baef00;
   --base-color-hover: #d9ff56;
-  --base-color-active: #a3d200;
+  --base-color-active: #c0f011;
   --border-color: #e3e3e3;
   --placeholder-color: #8d8d8d;
   --black-color: #263238;
@@ -37,7 +37,7 @@ li {
 }
 .logo {
   display: block;
-  width: 154px;
+  width: 155px;
 }
 .menu__list {
   display: flex;
@@ -308,19 +308,18 @@ li {
   gap: 30px;
 }
 
-.catalog__item--big{
-grid-column: span 2;
+.catalog__item--big {
+  grid-column: span 2;
 }
-.catalog__card{
+.catalog__card {
   height: 100%;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   padding: 23px 15px;
   background-color: var(--border-color);
-
 }
-.footer__logo{
-opacity: 50%;
+.footer__logo {
+  opacity: 50%;
 }
