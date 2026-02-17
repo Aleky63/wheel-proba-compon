@@ -89,7 +89,8 @@ li {
   outline: 1px solid transparent;
   outline-offset: 2px;
   transition: outline-color var(--transition-duration),
-    background-color var(--transition-duration);
+    background-color var(--transition-duration),
+    transform var(--transition-duration);
   cursor: pointer;
 }
 
@@ -98,6 +99,7 @@ li {
 }
 .btn:hover {
   color: var(--base-color-hover);
+  transform: scaleY(1.2);
 }
 
 .btn:active {
