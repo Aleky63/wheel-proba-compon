@@ -4,11 +4,11 @@ html {
 :root {
   --base-color: #baef00;
   --base-color-hover: #cff74d;
-  --base-color-active: #9dc237;
+  --base-color-active: #b2d64e;
   --border-color: #e3e3e3;
   --placeholder-color: #8d8d8d;
   --black-color: #263238;
-  --price-color: #6c6c6c;
+  --price-color: #7a7878;
   --transition-duration: 0.5s;
 }
 *,
@@ -49,7 +49,8 @@ li {
 .menu__link {
   color: white;
   outline: none;
-  transition: color var(--transition-duration),
+  transition:
+    color var(--transition-duration),
     background-color var(--transition-duration);
 }
 .menu__link:focus {
@@ -67,7 +68,8 @@ li {
 .default-link {
   color: var(--black-color);
   text-decoration: underline;
-  transition: color var(--transition-duration),
+  transition:
+    color var(--transition-duration),
     background-color var(--transition-duration);
 }
 .default-link:focus-visible {
@@ -88,7 +90,8 @@ li {
   border: none;
   outline: 1px solid transparent;
   outline-offset: 2px;
-  transition: outline-color var(--transition-duration),
+  transition:
+    outline-color var(--transition-duration),
     background-color var(--transition-duration),
     transform var(--transition-duration);
   cursor: pointer;
@@ -216,7 +219,8 @@ li {
   display: block;
   padding: 12px;
   background-color: var(--base-color);
-  transition: opacity var(--transition-duration),
+  transition:
+    opacity var(--transition-duration),
     background-color var(--transition-duration);
   outline: none;
 }
@@ -273,11 +277,8 @@ li {
 }
 .callback__right {
   padding: 75px 50px;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
     url(../img/callback-right.jpg);
   background-size: cover;
   background-repeat: no-repeat;
