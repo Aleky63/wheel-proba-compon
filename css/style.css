@@ -2,9 +2,9 @@ html {
   box-sizing: border-box;
 }
 :root {
-  --base-color: #baef00;
-  --base-color-hover: #cff74d;
-  --base-color-active: #b2d64e;
+  --base-color: #c4f500;
+  --base-color-hover: #d7fa61;
+  --base-color-active: #bde052;
   --border-color: #e3e3e3;
   --placeholder-color: #8d8d8d;
   --black-color: #263238;
